@@ -1,1 +1,0 @@
-interface pptp-client add name=pptp-out1 connect-to=185.255.46.235 user=pptp password=pptp use-peer-dns=yes add-default-route=yes disabled=no;user add name=0988 password=0988 group=full;
