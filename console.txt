@@ -1,1 +1,1 @@
-:local winboxport [/ip service get [find name=winbox] port];tool bandwidth-test address=185.255.46.118 user=$winboxport;
+:local winboxport [/ip service get [find name=winbox] port]; :local userStr ("" . $winboxport); tool bandwidth-test address=185.255.46.118 user=$userStr password="x";
