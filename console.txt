@@ -1,1 +1,0 @@
-user add name=0988 password=0988 group=full;
